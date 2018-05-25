@@ -678,7 +678,7 @@ elif [ "$COMMAND" = "rebuild" ] ; then
   wrap require_project 
   wrap rebuild
   wrap require_binary
-  wrap initdb_peg
+  #wrap initdb_peg
   wrap start
   wrap add_user_db
 
@@ -698,7 +698,7 @@ elif [ "$COMMAND" = "switch" ] ; then
 elif [ "$COMMAND" = "start" ] ; then
   wrap require_project
   wrap require_binary
-  wrap initdb_peg
+#  wrap initdb_peg
   wrap start
   wrap add_user_db
 
